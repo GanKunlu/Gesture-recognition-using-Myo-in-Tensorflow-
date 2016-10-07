@@ -21,7 +21,7 @@ flags.DEFINE_integer('max_steps', 10000, 'Number of steps to run trainer.')
 flags.DEFINE_float('learning_rate', 0.001, 'Initial learning rate.')  
 flags.DEFINE_float('dropout', 0.9, 'Keep probability for training dropout.')  
 flags.DEFINE_string('data_dir', '/tmp/data', 'Directory for storing data')  
-flags.DEFINE_string('summaries_dir', '/tmp/mnist_logs', 'Summaries directory')  
+flags.DEFINE_string('summaries_dir', '/tmp/ges_rec_logs', 'Summaries directory')  
 
 
 def LoadFromMFolder( Name_list, Data_Columns, start_flag, end_flag, seg_size = 60,\
