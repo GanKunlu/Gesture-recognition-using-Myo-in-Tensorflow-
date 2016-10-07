@@ -1,5 +1,5 @@
 # Gesture-recognition-using-Myo-in-Tensorflow
-* Use myo armband to collect multi-sEMG for every gesture by the Linux SDK: [PyoConnect](http://www.fernandocosentino.net/pyoconnect/).
+* Use [myo](https://www.myo.com/) armband to collect multi-sEMG for every gesture by the Linux SDK: [PyoConnect](http://www.fernandocosentino.net/pyoconnect/).
 * Gesture recognition by `DNN` in Google's [Tensorflow](https://www.tensorflow.org/) framework.
 
 ##requirement
