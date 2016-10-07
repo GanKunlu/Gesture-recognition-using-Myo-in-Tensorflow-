@@ -40,7 +40,7 @@ def LoadFromMFolder( Name_list, Data_Columns, start_flag, end_flag, seg_size = 6
 	samples_data = []
 	samples_labels = []
 	for folder_index, name in enumerate(Name_list):
-		file_path = path + name + "/"
+		file_path = path +  "/data" + name + "/"
 		file_list = os.listdir(file_path)
 		class_num = len(file_list)
 		file_list.sort(key = fileSort_key) 
