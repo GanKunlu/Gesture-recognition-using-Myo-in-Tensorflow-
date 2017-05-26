@@ -193,7 +193,7 @@ def train():
 				preactivate = tf.matmul(input_tensor, weights) + biases  
 				tf.summary.histogram(layer_name + '/pre_activations', preactivate)  
 			if act == tf.nn.softmax:
-				activition = act(preactivate, -1, 'activation')
+				activitions = act(preactivate, -1, 'activation')
 			else:
 				activations = act(preactivate, 'activation')  
 			tf.summary.histogram(layer_name + '/activations', activations)  
