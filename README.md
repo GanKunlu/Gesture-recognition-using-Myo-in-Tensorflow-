@@ -4,7 +4,8 @@
 * The master branch is for the TensorFlow version 1.X(1.0-1.2), and there are another branch for the old version 0.X.
 * Add 1D-CNN model as the gesture recohnition algrithm, and achieve online recognition.
 
-## linux: ges_rec.py
+## linux: 
+### ges_rec.py
 * You can visualize the Neural Networks using tensorboard in linux after running ges_rec.py
 ```
 tensorboard --logdir=/tmp/ges_rec_logs/
