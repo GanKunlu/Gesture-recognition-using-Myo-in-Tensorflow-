@@ -5,14 +5,18 @@
 * Add 1D-CNN model as the gesture recohnition algrithm, and achieve online recognition.
 
 ## linux: ges_rec.py
-* You can visualize the Neural Networks using tensorboard in linux after runing ges_rec.py
+* You can visualize the Neural Networks using tensorboard in linux after running ges_rec.py
 ```
 tensorboard --logdir=/tmp/ges_rec_logs/
 ```
 ## Windows: 
-### conv1D_ges_rec.py  model training by 1D-CNN
-### conv1D_ges_online.py  online recognition
+### conv1D_ges_rec.py  -- model training by 1D-CNN
+### conv1D_ges_online.py  -- online recognition by 1D-CNN
 * the code is for windows using [myo-python](https://github.com/NiklasRosenstein/myo-python) sdk 
+* You can visualize the Neural Networks using tensorboard in windows after running conv1D_ges_rec.py
+```
+tensorboard --logdir=F:/tensorflow_temp/ges_rec_logs/
+```
 
 ## requirement
 ### Linux:
